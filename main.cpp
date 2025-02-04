@@ -1,4 +1,4 @@
-#ifndef PROGTEST
+#ifndef PROJECT
 #include <cstring>
 #include <cstdlib>
 #include <cstdio>
@@ -13,7 +13,7 @@
 #include <algorithm>
 #include <functional>
 #include <memory>
-#endif /* PROGTEST */
+#endif /* PROJECT */
 
 class CIterator;
 
@@ -480,7 +480,7 @@ unsigned CIterator::id() const
 }
 
 
-#ifndef __PROGTEST__
+#ifndef __PROJECT__
 static void test0 ()
 {
     CLandRegister x;
@@ -772,4 +772,4 @@ int main ( void )
     test1 ();
     return EXIT_SUCCESS;
 }
-#endif /* __PROGTEST__ */
+#endif /* __PROJECT__ */
